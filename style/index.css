@@ -1,179 +1,170 @@
-/* Add CSS styling here */
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
+            /* Add CSS styling here */
+            /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-body {
-    background-color: white;
-}
-
-
-/* .navContainer h1 {
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            b,
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /* HTML5 display-role reset for older browsers */
+            
+            article,
+            aside,
+            details,
+            figcaption,
+            figure,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            section {
+                display: block;
+            }
+            
+            body {
+                line-height: 1;
+            }
+            
+            ol,
+            ul {
+                list-style: none;
+            }
+            
+            blockquote,
+            q {
+                quotes: none;
+            }
+            
+            blockquote:before,
+            blockquote:after,
+            q:before,
+            q:after {
+                content: '';
+                content: none;
+            }
+            
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+            }
+            
+            body {
+                background-color: white;
+            }
+            
+            * {
+                box-sizing: border-box;
+                max-width: 100%;
+            }
+            /* .navContainer h1 {
     border: 5px solid green;
     display: flex;
 } */
-
-
-/* 
+            /* 
 .navContainer .item {
     display: flex;
     border: 2px solid orange;
     width: 50px;
 } */
-
-
-/* .contactSection {
+            /* .contactSection {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     border: 3px solid green;
     align-content: flex-end;
 } */
-
-
-/* .header {
+            /* .header {
     display: flex;
     border: 4px solid green;
 } */
-
-
-/* 
+            /* 
 .myName h1 {
     display: flex;
     justify-content: flex-start;
@@ -185,178 +176,307 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     /* align-content: flex-end; */
-
-
-/* align-items: top;
+            /* align-items: top;
 margin-bottom: 50px;
 
 }
 */
-
-.mainFlexbox {
-    display: flex;
-    justify-content: space-between;
-}
-
-.mainFlexbox h1 {
-    font-size: 2.4rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
-}
-
-.secondHeader {
-    display: flex;
-    margin-right: 1rem;
-    margin-top: 1rem;
-}
-
-.secondHeader .item {
-    border: 1.5px solid black;
-    padding: .7rem;
-    width: 3rem;
-    align-content: center;
-}
-
-.secondHeader .item:hover {
-    background-color: black;
-    color: white;
-}
-
-.secondHeader a {
-    border: 1.5px solid black;
-    padding: .7rem;
-    width: 3rem;
-    align-content: center;
-    color: black;
-    text-decoration: none;
-}
-
-.secondHeader a:hover {
-    background-color: black;
-    color: white;
-}
-
-.mainBox {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-    height: 30rem;
-    width: 80rem;
-    align-content: center;
-    margin-left: 10rem;
-    align-items: center;
-}
-
-.mainBox .mainBoxChild p {
-    color: black;
-}
-
-.mainBoxChild p {
-    font-size: 3.4rem;
-}
-
-.mainBoxChild a {}
-
-.myProjectsButton {
-    background-color: white;
-    display: flex;
-    color: black;
-    width: 9rem;
-    margin-left: 5rem;
-    /* padding: .6rem; */
-    text-align: center;
-    margin-top: 1rem;
-    height: 2rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.myProjectsButton button {
-    display: flex;
-    padding: .8rem;
-    width: 9rem;
-    justify-content: center;
-    text-decoration: none;
-    background-color: white;
-}
-
-.myProjectsButton a {
-    color: black;
-    text-decoration: none;
-}
-
-.boxWrap {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.boxWrap img {
-    display: flex;
-    width: 20rem;
-    margin-right: 20rem;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    padding: 2rem;
-    margin-top: 2rem;
-    margin: 2rem;
-    height: 10rem;
-    /* width: 12rem; */
-    justify-content: stretch;
-}
-
-.projectBox {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    border: 3px solid green;
-    padding: 2rem;
-    margin-top: 2rem;
-    margin: 2rem;
-    width: 20rem;
-    height: 10rem;
-    /* width: 12rem; */
-    justify-content: stretch;
-}
-
-.projectBox img {
-    display: flex;
-    justify-content: center;
-    width: 25rem;
-    height: 15rem;
-    border: 2px solid aqua;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.lastBox {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    flex-direction: row;
-}
-
-.lastSection {
-    display: flex;
-    background-color: rgb(140, 166, 167);
-    padding: 5rem;
-    justify-content: center;
-}
-
-.lastSection a {
-    display: flex;
-    border: 2px solid black;
-    color: black;
-    background-color: white;
-    padding: .75rem;
-    width: 6rem;
-    /* align-items: center; */
-    justify-content: center;
-    /* justify-content: center;
-    align-items: center;
-    flex-direction: column; */
-}
+            
+            .mainFlexbox {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .mainFlexbox h1 {
+                font-size: 2.4rem;
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            
+            .secondHeader {
+                display: flex;
+                margin-right: 1rem;
+                margin-top: 1rem;
+                width: 25%;
+                justify-content: flex-end;
+                padding: 1rem;
+                text-align: center;
+            }
+            
+            .secondHeader .item:hover {
+                background-color: black;
+                color: white;
+            }
+            
+            .secondHeader a {
+                border: 1.5px solid black;
+                padding: .7rem;
+                width: 100%;
+                align-content: center;
+                color: black;
+                text-decoration: none;
+            }
+            
+            .secondHeader a:hover {
+                background-color: black;
+                color: white;
+            }
+            
+            .mainBox {
+                margin-top: 2rem;
+                display: flex;
+                justify-content: center;
+                /* height: 30rem; */
+                /* width: 80rem; */
+                width: 75%;
+                margin-left: 10rem;
+            }
+            
+            .myProjectButton button {
+                margin-left: 30%;
+                margin-top: 12.5%;
+                padding: 1rem;
+                width: 50%;
+                background-color: gray;
+                color:
+            }
+            
+            .myProjectButton a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.2rem;
+            }
+            
+            .mainBox .mainBoxChild p {
+                color: black;
+            }
+            
+            .mainBoxChild p {
+                font-size: 3.4rem;
+            }
+            
+            .mainBoxChild a {}
+            
+            .myProjectsButton {
+                background-color: white;
+                display: flex;
+                color: black;
+                width: 9rem;
+                margin-left: 5rem;
+                /* padding: .6rem; */
+                text-align: center;
+                margin-top: 1rem;
+                height: 2rem;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .myProjectsButton button {
+                display: flex;
+                padding: .8rem;
+                width: 9rem;
+                justify-content: center;
+                text-decoration: none;
+                background-color: white;
+            }
+            
+            .myProjectsButton a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            .boxWrap {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                flex-direction: row;
+                margin-top: 10%;
+            }
+            
+            .boxWrap img {
+                display: flex;
+                /* width: 20rem; */
+                flex-direction: row;
+                /* flex-wrap: wrap; */
+                /* justify-content: space-between; */
+                margin-top: 2rem;
+                margin: 2rem;
+                /* height: 10rem; */
+                /* width: 12rem; */
+                width: 25%;
+            }
+            
+            .projectBox {
+                display: flex;
+                flex-direction: row;
+                /* flex-wrap: wrap; */
+                /* justify-content: space-between; */
+                padding: 2rem;
+                margin-top: 2rem;
+                margin: 2rem;
+                width: 20rem;
+                height: 10rem;
+                /* width: 12rem; */
+                justify-content: stretch;
+            }
+            
+            .projectBox img {
+                display: flex;
+                justify-content: center;
+                width: 25rem;
+                height: 15rem;
+                border: 2px solid aqua;
+                /* background-position: center; */
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .lastBox {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .lastSection {
+                display: flex;
+                background-color: rgb(140, 166, 167);
+                /* padding: 5rem; */
+                /* justify-content: center; */
+                margin-top: 10%;
+                height: 15rem;
+            }
+            
+            .lastSection a {
+                display: flex;
+                border: 2px solid black;
+                color: black;
+                background-color: black;
+                color: white;
+                width: 10%;
+                margin: auto;
+                justify-content: center;
+                height: 20%;
+                text-align: center;
+                text-decoration: none;
+                padding-top: .8rem;
+            }
+            /* Start of 800px responsive */
+            
+            @media screen and (max-width: 800px) {
+                /* * {
+            box-sizing: border-box;
+            max-width: 100%;
+        } */
+                body {
+                    width: 100%;
+                }
+                .secondHeader {
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .secondHeader a {
+                    display: flex;
+                    justify-content: center;
+                    width: 60%;
+                }
+                .mainBox {
+                    display: flex;
+                    justify-content: center;
+                    /* margin-left: 25%; */
+                    height: 20rem;
+                    margin: auto;
+                }
+                .mainBox p {
+                    height: 10%;
+                }
+                .mainBoxChild {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                .myProjectsButton {
+                    display: flex;
+                    justify-content: center;
+                }
+                .myProjectButton button {
+                    display: flex;
+                    justify-content: center;
+                    margin: auto;
+                    padding: .5rem;
+                    width: 40%;
+                    margin-top: 20%;
+                    background-color: white;
+                }
+                .myProjectButton button a {
+                    color: gray;
+                    text-decoration: none;
+                }
+                .lastSection a {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: center;
+                    width: 20%;
+                }
+            }
+            /* End of 800px responsive */
+            /* Start of 500px responsive */
+            
+            @media(max-width: 500px) {
+                body {}
+                .myName {
+                    margin-top: 3%;
+                }
+                .secondHeader {
+                    display: flex;
+                    height: 10%;
+                    width: 45%;
+                }
+                .secondHeader a {
+                    width: 25%;
+                }
+                .mainBox {
+                    display: flex;
+                    /* flex-direction: column; */
+                }
+                .mainBoxChild {
+                    height: 50%;
+                }
+                .mainBoxChild p {
+                    font-size: 2.5rem;
+                }
+                /* .mainBoxChild {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                } */
+                .myProjectButton {
+                    display: flex;
+                    margin-top: 20%;
+                    width: 100%;
+                }
+                .lastBox {
+                    display: flex;
+                    justify-content: flex-start;
+                }
+                .boxWrap {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    margin: auto;
+                }
+                .boxWrap img {
+                    width: 85%;
+                    /* height: 2.5%; */
+                }
+                .lastSection {
+                    display: flex;
+                    justify-content: center;
+                    padding: 2rem;
+                }
+                .lastSection a {
+                    width: 50%;
+                    background-color: black;
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+            /* End of 500px responsive */
